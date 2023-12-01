@@ -12,6 +12,7 @@ M.general = {
     ["<leader>dx"] = { "<cmd> lua require('dapui').close() <cr>", "Close Debugger Session" },
     ["<leader>dc"] = { "<cmd> lua require('dap').continue() <cr>", "Continue Debugger Session" },
     ["<leader>df"] = { "<cmd> lua require('dap').clear_breakpoints() <cr>", "Clear all Breakpoints" },
+    ["<leader>lg"] = { "<cmd> Telescope live_grep search_dirs=. <cr>" , "Find in files" },
   },
   v = {
     [">"] = { ">gv", "indent"},
