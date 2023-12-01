@@ -40,6 +40,20 @@ M.mason = {
     -- c/cpp stuff
     "clangd",
     "clang-format",
+
+    -- go stuff
+    "delve",
+    "gopls",
+    "goimports",
+    "golangci-lint",
+    "golangci-lint-langserver",
+
+    --  ruby stuff
+    "rubocop",
+    "ruby-lsp",
+
+    -- generic stuff
+    "sonarlint-language-server",
   },
 }
 
