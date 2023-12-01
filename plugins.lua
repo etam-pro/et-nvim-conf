@@ -136,6 +136,30 @@ local plugins = {
     end,
   },
 
+  -- Debuggers
+
+  "rcarriga/nvim-dap-ui",
+  "leoluz/nvim-dap-go",
+  {
+    "folke/neodev.nvim",
+    config = function()
+      require("neodev").setup({
+        library = {
+          plugins = { "nvim-dap-ui" },
+          types = true,
+        },
+      })
+    end
+  },
+
+  {
+    "mfussenegger/nvim-dap",
+    lazy = false,
+    config = function()
+      require('dap-go').setup()
+      require('dapui').setup()
+    end,
+  },
 
   -- To make a plugin not be loaded
   -- {
