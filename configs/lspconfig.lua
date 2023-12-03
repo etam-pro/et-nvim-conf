@@ -10,10 +10,9 @@ local servers = {
   "tsserver",
   "clangd",
   "golangci_lint_ls",
+  "gopls",
   "ruby_ls",
   "rubocop",
-  "solorgraph",
-  "gopls",
 }
 
 for _, lsp in ipairs(servers) do
@@ -22,3 +21,22 @@ for _, lsp in ipairs(servers) do
     capabilities = capabilities,
   }
 end
+
+-- Solargraph provides much faster autoformat than rubocop for ruby,
+-- but required some manual setup.
+lspconfig.solargraph.setup {
+  cmd = { "solargraph", "stdio" },
+  filetypes = { "ruby" },
+  root_dir = lspconfig.util.root_pattern("Gemfile", ".git"),
+  settings = {
+    solargraph = {
+      autoformat = true,
+      diagnostics = true,
+      completion = true,
+      folding = true,
+      references = true,
+      rename = true,
+      symbols = true,
+    },
+  },
+}

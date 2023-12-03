@@ -87,7 +87,8 @@ local plugins = {
           lua = { "stylua" },
           javascript = { "prettier" },
           go = { "gofmt", "goimports" },
-          ruby = { "rubocop" },
+
+          -- NOTE: ruby formatter is done with LSP using solargraph
 
           ["_"] = { "trim_whitespace" },
         },
