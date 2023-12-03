@@ -13,6 +13,7 @@ local servers = {
   "gopls",
   "ruby_ls",
   "rubocop",
+  "pyright",
 }
 
 for _, lsp in ipairs(servers) do

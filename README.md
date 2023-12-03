@@ -2,6 +2,7 @@
 
 This is a Neovim configuration built upon [NvChad](https://nvchad.com/) as the
 base. Some plugins added on top includes the following:
+
 - [copilot.lua](https://github.com/zbirenbaum/copilot.lua) Github Copilot nvim
   plugin implemented in lua.
 - [lazygit.nvim](https://github.com/kdheepak/lazygit.nvim) Nvim Plugin to open
@@ -13,12 +14,13 @@ base. Some plugins added on top includes the following:
   nvim-dap-ui
 
 ## Context
+
 - [LSP supported languages](#lsp-supported-languages)
 - [Autoformatter](#autoformatter)
 - [Install](#install)
-    - [Installing Prerequesites](#installing-prerequisites)
-    - [Cloning the Configuration](#cloning-the-configuration)
-    - [Installing Plugins](#installing-plugins)
+  - [Installing Prerequesites](#installing-prerequisites)
+  - [Cloning the Configuration](#cloning-the-configuration)
+  - [Installing Plugins](#installing-plugins)
 - [Custom Mappings](#custom-mappings)
 - [Resources](#resources)
 
@@ -35,6 +37,8 @@ base. Some plugins added on top includes the following:
   - solargraph
 - typescript
   - typescript-language-server
+- python
+  - pyright
 
 ## Autoformatter
 
@@ -45,10 +49,13 @@ base. Some plugins added on top includes the following:
   - solargraph
 - typescript
   - prettier
+- python
+  - black
 
 ## Install
 
 ### Installing Prerequisites
+
 Please make sure you install
 [NvChad](https://nvchad.com/docs/quickstart/install).
 
@@ -65,6 +72,7 @@ global version is set to 3.2.2.
 Install [Go v18+](https://go.dev/doc/install).
 
 ### Cloning the configuration
+
 Run the following command to clone the configuration (IMPORTANT: will overrride
 all custom settings):
 
@@ -73,19 +81,25 @@ rm -rf $HOME/.config/nvim/lua/custom && git clone https://github.com/etam-pro/et
 ```
 
 Open neovim:
+
 ```
 nvim
 ```
 
 ### Installing Plugins
-To install all the plugins through [Lazy](https://github.com/folke/lazy.nvim), type in the following command:
+
+To install all the plugins through [Lazy](https://github.com/folke/lazy.nvim),
+type in the following command:
+
 ```
 :Lazy sync
 ```
 
-**Might need to restart nvim at this point for the plugins to be effective.
+\*\*Might need to restart nvim at this point for the plugins to be effective.
 
-To install all LSP, Linters and Formatters through Mason, type in the following command:
+To install all LSP, Linters and Formatters through Mason, type in the following
+command:
+
 ```
 :MasonInstallAll
 ```
@@ -93,6 +107,7 @@ To install all LSP, Linters and Formatters through Mason, type in the following 
 You should be set to go!
 
 # Custom Mappings
+
 NOTE: `leader` is current set to `space`.
 
 ```lua
@@ -125,9 +140,9 @@ NOTE: `leader` is current set to `space`.
 
     -- open the LazyGit panel
     ["<leader>gg"] = { "<cmd> LazyGit <cr>", "Open LazyGit" },
-
 ```
 
 ## Resources
+
 - [Vim Cheatsheet](https://vim.rtorr.com/)
 - [Vim Tips](https://www.youtube.com/watch?v=13gNtgqzzmM) (Youtube Video)

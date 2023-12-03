@@ -87,6 +87,7 @@ local plugins = {
           lua = { "stylua" },
           javascript = { "prettier" },
           go = { "gofmt", "goimports" },
+          python = { "black" },
 
           -- NOTE: ruby formatter is done with LSP using solargraph
 
