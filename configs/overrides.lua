@@ -51,6 +51,7 @@ M.mason = {
     --  ruby stuff
     "rubocop",
     "ruby-lsp",
+    "solargraph",
 
     -- generic stuff
     "sonarlint-language-server",

@@ -10,9 +10,10 @@ local servers = {
   "tsserver",
   "clangd",
   "golangci_lint_ls",
-  "gopls",
   "ruby_ls",
-  "rubocop"
+  "rubocop",
+  "solorgraph",
+  "gopls",
 }
 
 for _, lsp in ipairs(servers) do
@@ -21,6 +22,3 @@ for _, lsp in ipairs(servers) do
     capabilities = capabilities,
   }
 end
-
--- 
--- lspconfig.pyright.setup { blabla}
