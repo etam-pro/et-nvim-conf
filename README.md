@@ -114,6 +114,12 @@ command:
 :MasonInstallAll
 ```
 
+To login to Copilot:
+
+```
+:Copilot auth
+```
+
 You should be set to go!
 
 # Custom Mappings
