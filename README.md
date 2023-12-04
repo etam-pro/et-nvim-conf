@@ -13,6 +13,14 @@ base. Some plugins added on top includes the following:
 - [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) Nvim UI plugin for
   nvim-dap-ui
 
+## Author
+
+- [Edward Tam](https://github.com/etam-pro)
+
+## Contributors
+
+- [Ari Bapna](https://github.com/ArihantBapna)
+
 ## Context
 
 - [LSP supported languages](#lsp-supported-languages)
