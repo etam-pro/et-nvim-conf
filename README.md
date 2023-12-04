@@ -79,7 +79,7 @@ Install Ruby 3.2.2. If you are using a virtual environmetn (i.e.
 [rvm](https://rvm.io/), [rbenv](https://github.com/rbenv/rbenv)) make sure
 global version is set to 3.2.2.
 
-Install [Go v18+](https://go.dev/doc/install).
+Install [Go v1.18+](https://go.dev/doc/install).
 
 ### Cloning the configuration
 
