@@ -1,4 +1,6 @@
-# et-nvim-conf
+# nvim-conf
+
+![demo](nvim.gif)
 
 This is a Neovim configuration built upon [NvChad](https://nvchad.com/) as the
 base. Some plugins added on top includes the following:
