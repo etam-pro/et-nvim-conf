@@ -39,6 +39,7 @@ base. Some plugins added on top includes the following:
 - html
 - css
   - cssls
+  - tailwindcss-language-server
 - golang
   - gopls
 - ruby

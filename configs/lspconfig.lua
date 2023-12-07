@@ -8,6 +8,7 @@ local servers = {
   "html",
   "cssls",
   "tsserver",
+  "tailwindcss",
   "clangd",
   "golangci_lint_ls",
   "gopls",
