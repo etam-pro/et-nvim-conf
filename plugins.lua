@@ -86,6 +86,9 @@ local plugins = {
         formatters_by_ft = {
           lua = { "stylua" },
           javascript = { "prettier" },
+          javascriptreact = { "prettier" },
+          typescript = { "prettier" },
+          typescriptreact = { "prettier" },
           go = { "gofmt", "goimports" },
           python = { "black" },
 
@@ -96,7 +99,7 @@ local plugins = {
 
         format_on_save = {
           timeout_ms = 5000,
-          lsp_fallback = "always",
+          lsp_fallback = true,
         },
       }
     end,

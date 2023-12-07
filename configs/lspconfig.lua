@@ -11,7 +11,6 @@ local servers = {
   "clangd",
   "golangci_lint_ls",
   "gopls",
-  "ruby_ls",
   "rubocop",
   "pyright",
 }

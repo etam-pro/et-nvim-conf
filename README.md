@@ -49,6 +49,9 @@ base. Some plugins added on top includes the following:
   - typescript-language-server
 - python
   - pyright
+- json
+  - jq
+  - jq-lsp
 
 ## Autoformatter
 

@@ -55,6 +55,8 @@ M.mason = {
 
     -- generic stuff
     "sonarlint-language-server",
+    "jq",
+    "jq-lsp",
   },
 }
 
