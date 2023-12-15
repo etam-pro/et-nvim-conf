@@ -165,6 +165,20 @@ local plugins = {
     end,
   },
 
+  -- amongst your other plugins
+  {
+    "akinsho/toggleterm.nvim",
+    version = "*",
+    lazy = false,
+    opts = {
+      open_mapping = [[<c-\>]],
+      hide_numbers = true, -- hide the number column in toggleterm buffers
+      close_on_exit = true, -- close the terminal window when the process exits
+      auto_insert = true, -- automatically insert a terminal command in insert mode
+      auto_scroll = true, -- scroll when text is added in normal mode
+    },
+  },
+
   -- To make a plugin not be loaded
   -- {
   --   "NvChad/nvim-colorizer.lua",
