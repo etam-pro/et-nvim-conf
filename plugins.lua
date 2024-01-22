@@ -123,6 +123,7 @@ local plugins = {
 
   {
     "mfussenegger/nvim-dap",
+    lazy = false,
     config = function()
       local dap = require "dap"
 
@@ -203,7 +204,7 @@ local plugins = {
           enable_rename = true,
           enable_close = true,
           enable_close_on_slash = true,
-          filetypes = { "html", "xml", "javascriptreact", "typescriptreact", "svelte", "vue" },
+          filetypes = { "html", "xml", "javascriptreact", "typescriptreact", "svelte", "vue", "eruby" },
         },
       }
     end,
