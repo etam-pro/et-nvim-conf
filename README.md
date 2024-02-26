@@ -85,7 +85,7 @@ global version is set to 3.2.2.
 
 Install [Go v1.18+](https://go.dev/doc/install).
 
-Install [LText](https://valentjn.github.io/ltex/) (for grammar checking in
+Install [ltex](https://valentjn.github.io/ltex/) (for grammar checking in
 Markdowns and Text):
 
 ```bash
