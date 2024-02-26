@@ -41,3 +41,10 @@ lspconfig.solargraph.setup {
     },
   },
 }
+
+lspconfig.ltex.setup {
+  on_attach = on_attach,
+  cmd = { "ltex-ls" },
+  filetypes = { "text", "markdown" },
+  flags = { debounce_text_changes = 300 },
+}

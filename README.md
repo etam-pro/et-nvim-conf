@@ -85,6 +85,13 @@ global version is set to 3.2.2.
 
 Install [Go v1.18+](https://go.dev/doc/install).
 
+Install [LText](https://valentjn.github.io/ltex/) (for grammar checking in
+Markdowns and Text):
+
+```bash
+brew install ltex-ls
+```
+
 ### Cloning the configuration
 
 Run the following command to clone the configuration (IMPORTANT: will overrride
